@@ -1,0 +1,115 @@
+.curriculum {
+  margin-bottom: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-size: cover;
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: -o-linear-gradient(
+      269.95deg,
+      rgba(0, 0, 0, 0) 0.03%,
+      #144166 96.36%
+    ),
+    url("../../assets//images/MU-LAW01.bmp");
+  background: linear-gradient(180.05deg, rgba(0, 0, 0, 0) 0.03%, #144166 96.36%),
+    url("../../assets//images/MU-LAW01.bmp");
+  background-position: top;
+}
+.curriculum-heading p {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 50px !important;
+  font-family: "metropolis-bold";
+}
+.curri-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  color: #144166;
+}
+.curri-cards p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.curri-cards p:nth-child(2) {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.curri-card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  margin: 10px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+
+  background: -o-linear-gradient(top, #ffffff 0%, #144166 207.23%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffffff),
+    color-stop(207.23%, #144166)
+  );
+  background: linear-gradient(180deg, #ffffff 0%, #144166 207.23%);
+}
+.curri-card div {
+  padding: 20px;
+}
+.cari-logo {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width: 320px) {
+  .curriculum-heading p {
+    font-size: 30px !important;
+  }
+  .curri-card {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .curri-card {
+    width: 300px;
+  }
+  .curriculum-heading p {
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .curri-card {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for small desktops and tablets in landscape */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Styles for larger desktops and laptops */
+}

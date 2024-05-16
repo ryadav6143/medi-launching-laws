@@ -1,0 +1,105 @@
+.footer {
+  background: -o-radial-gradient(
+    50% 50%,
+    137.05% 137.05%,
+    #144166 0%,
+    #142533 100%
+  );
+  background: radial-gradient(
+    137.05% 137.05% at 50% 50%,
+    #144166 0%,
+    #142533 100%
+  );
+
+  padding-top: 80px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  position: relative;
+  z-index: 10;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "metropolis";
+}
+.footer-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.893);
+  color: rgba(255, 255, 255, 0.655);
+  padding-top: 10px;
+}
+#privacy {
+  color: rgba(255, 255, 255, 0.655);
+}
+.f-white-logo img {
+  margin-top: -30px;
+  width: 300px;
+  height: 200px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.f-contact-us {
+  color: white;
+  font-size: 15px;
+}
+.flex-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c-heading,
+.info-heading {
+  font-size: 25px;
+}
+.further-info {
+  color: white;
+  font-size: 15px;
+}
+.social-logos img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+}
+.social-logos div {
+  display: inline;
+  padding: 10px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.social-logos {
+  margin-left: -10px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .footer {
+    padding-top: 30px;
+  }
+  .f-white-logo {
+    margin-bottom: 20px;
+  }
+  .f-contact-us {
+    text-align: center;
+  }
+  .further-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.other-logos {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

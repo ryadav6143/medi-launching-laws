@@ -1,0 +1,111 @@
+.sats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-bottom: 5%;
+}
+.sats button a {
+  text-decoration: none;
+  color: black;
+}
+.sat-card-1 {
+  width: 40%;
+  background-color: #f1f1f1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 70px 30px 70px;
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+.sat-card-1:hover {
+  color: white !important;
+  background-image: url("../../assets/images/uncle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-heading:hover {
+  color: white;
+}
+.list {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  text-align: left;
+  margin: auto;
+}
+.card-heading {
+  color: #ffc104;
+  font-size: 40px;
+  font-weight: 600;
+}
+.card-text {
+  font-weight: 600;
+  font-size: 17px;
+}
+.apn-btn {
+  background-color: white;
+  color: black;
+  width: 150px;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 767px) {
+  .sat-card-1 {
+    width: 80%;
+    background-color: #f1f1f1;
+    padding: 10px 10px 10px;
+  }
+  .card-heading {
+    color: #ffc104;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .sat-card-1 {
+    width: 80%;
+    background-color: #f1f1f1;
+    padding: 10px 10px 10px;
+  }
+  .card-heading {
+    color: #ffc104;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .sat-card-1 {
+    /* width: 80%; */
+    background-color: #f1f1f1;
+    padding: 30px;
+  }
+  .card-heading {
+    color: #ffc104;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  /* Your styles for the larger iPad Pro landscape orientation here */
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+  /* Your styles for the larger iPad Pro portrait orientation here */
+}
